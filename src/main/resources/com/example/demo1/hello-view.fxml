@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo1.HelloController">
+    <FlowPane>
+        <Label>Сумма в чеке</Label>
+        <TextField fx:id="Field1"></TextField>
+    </FlowPane>
+    <HBox>
+        <Button onAction="#onButton1Click">15%</Button>
+        <Label fx:id="Count1">Рассчёт: </Label>
+    </HBox>
+    <HBox>
+        <Button onAction="#onButton2Click">10%</Button>
+        <Label fx:id="Count2">Рассчёт: </Label>
+    </HBox>
+    <HBox>
+        <Button onAction="#onButton3Click">3%</Button>
+        <Label fx:id="Count3">Рассчёт: </Label>
+    </HBox>
+</VBox>
